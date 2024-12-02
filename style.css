@@ -1,0 +1,221 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #020202;
+
+  color: #fff;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: #ffa500;
+  color: #000;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #020202;
+
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
+.download-launcher {
+  background-color: #ffa500;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.main-banner {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.main-banner img {
+  width: 100%;
+  height: auto;
+}
+
+.main-banner .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.games-highlight, .news, .games-launcher {
+  padding: 20px;
+  background: #020202;
+
+  margin-bottom: 20px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filter-buttons button {
+  margin-left: 10px;
+  background: #020202;
+  color: #fff;
+}
+
+.games-grid, .news-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.latest-news {
+  padding: 20px;
+}
+
+.news-container {
+  display: flex;
+  gap: 20px;
+}
+
+.main-news {
+  flex: 2;
+  background: #020202;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.main-news img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.news-info {
+  padding: 15px;
+  background: #020202;
+
+}
+
+.news-info h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.news-info p {
+  font-size: 14px;
+  background: #020202;
+
+}
+
+.side-news {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.news-item {
+  display: flex;
+  gap: 10px;
+  background-color: #222;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.news-item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+}
+
+.games-launcher {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(to right, #ffa500, #ff4500);
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.launcher-content {
+  display: flex;
+  gap: 20px;
+}
+
+.text-content {
+  flex: 1;
+}
+
+.text-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.text-content p {
+  margin-bottom: 20px;
+}
+
+.text-content button {
+  background-color: #111;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.image-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content p {
+  margin: 10px 0;
+  color: #aaa;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
+  font-size: 14px;
+}
